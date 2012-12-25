@@ -1,1 +1,1 @@
-rvm use 1.9.3@nobrainer
+rvm use 1.9.3@nobrainer --create

@@ -10,7 +10,7 @@ module NoBrainer::QueryRunner
   use :DatabaseOnDemand
   use :TableOnDemand
   use :WriteError
-  use :Connection
+  #use :Connection
   use :Selection
 
   def self.run(options={}, &block)

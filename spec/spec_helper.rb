@@ -13,7 +13,7 @@ RSpec.configure do |config|
   config.include CallbacksHelper
 
   config.before(:each) do
-    NoBrainer.purge!
+    NoBrainer.purge! :drop => true
   end
 
   config.after do
